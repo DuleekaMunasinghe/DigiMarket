@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 0.807 s <<< FAILURE! - in TestSuite
+testCase4(Banking.Thanos.AdvanceExtentReport)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Banking.Thanos.AdvanceExtentReport.testCase4(AdvanceExtentReport.java:33)
+

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SwiggyTestSuite">
+
+    <test name="SwiggyTests">
+        <classes>
+            <class name="com.example.tests.SwiggyTest"/>
+            <!-- Add more classes if needed -->
+        </classes>
+    </test>
+
+</suite>

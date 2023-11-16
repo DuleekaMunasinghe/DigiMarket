@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestReportOne"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.007">
+  <properties />
+  
+  
+            <testcase name="testReadExcelData" time="0.003" classname="test.Reporting.ReportNG.LoginData" />
+                <testcase name="testReadExcelData" time="0.001" classname="test.Reporting.ReportNG.LoginData" />
+                <testcase name="testReadExcelData" time="0.001" classname="test.Reporting.ReportNG.LoginData" />
+                <testcase name="testReadExcelData" time="0.002" classname="test.Reporting.ReportNG.LoginData" />
+      
+</testsuite>

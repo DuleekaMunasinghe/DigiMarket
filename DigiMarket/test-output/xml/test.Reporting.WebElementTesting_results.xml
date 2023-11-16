@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestReportOne"
+           tests="5"
+           failures="1"
+           errors="0"
+           skipped="1"
+           time="11.758">
+  <properties />
+            <testcase name="VerifyHomePage" time="0.013" classname="test.Reporting.WebElementTesting">
+                <failure type="java.lang.AssertionError"
+                  message="null"
+              >
+<![CDATA[java.lang.AssertionError: null
+  org.testng.Assert.fail(Assert.java:111)
+  org.testng.Assert.fail(Assert.java:116)
+  test.Reporting.WebElementTesting.VerifyHomePage(WebElementTesting.java:54)
+  java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+  java.base/java.lang.reflect.Method.invoke(Method.java:578)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+  org.testng.TestRunner.privateRun(TestRunner.java:848)
+  org.testng.TestRunner.run(TestRunner.java:621)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+  org.testng.SuiteRunner.run(SuiteRunner.java:336)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+  org.testng.TestNG.runSuites(TestNG.java:1114)
+  org.testng.TestNG.run(TestNG.java:1082)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="SkipTest" time="0.0" classname="test.Reporting.WebElementTesting">
+          <skipped />
+    </testcase>
+  
+            <testcase name="VerifyCheckbox" time="2.246" classname="test.Reporting.WebElementTesting" />
+                <testcase name="VerifyTitle" time="7.231" classname="test.Reporting.WebElementTesting" />
+                <testcase name="VerifyRadioButton" time="2.267" classname="test.Reporting.WebElementTesting" />
+      
+</testsuite>

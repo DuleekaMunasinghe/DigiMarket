@@ -1,0 +1,6 @@
+Banking\Thanos\AppTest.class
+Banking\Thanos\AdvanceExtentReport.class
+Banking\Thanos\ExtentManager.class
+Banking\Thanos\ExtentTestManager.class
+Banking\Thanos\BasicExtentReport.class
+Banking\Thanos\TestListener.class

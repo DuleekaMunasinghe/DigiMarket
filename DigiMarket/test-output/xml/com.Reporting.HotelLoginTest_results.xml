@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="6"
+           failures="1"
+           errors="0"
+           skipped="5"
+           time="1.971">
+  <properties />
+            <testcase name="LaunchBrowser" time="1.971" classname="com.Reporting.HotelLoginTest">
+                <failure type="org.openqa.selenium.SessionNotCreatedException"
+                  message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 116
+Current browser version is 118.0.5993.89 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: &apos;DESKTOP-9BJ4JH8&apos;, ip: &apos;192.168.1.6&apos;
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}, pageLoadStrategy: eager}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}, pageLoadStrategy: eager}}]"
+              >
+<![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 116
+Current browser version is 118.0.5993.89 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-9BJ4JH8', ip: '192.168.1.6'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}, pageLoadStrategy: eager}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}, pageLoadStrategy: eager}}]
+  org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+  org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:106)
+  org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+  org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+  org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+  org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+  org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+  org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:71)
+  com.Reporting.HotelLoginTest.LaunchBrowser(HotelLoginTest.java:36)
+  java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+  java.base/java.lang.reflect.Method.invoke(Method.java:578)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+  org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+  org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+  org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+  org.testng.TestRunner.beforeRun(TestRunner.java:652)
+  org.testng.TestRunner.run(TestRunner.java:614)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+  org.testng.SuiteRunner.run(SuiteRunner.java:336)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+  org.testng.TestNG.runSuites(TestNG.java:1114)
+  org.testng.TestNG.run(TestNG.java:1082)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="CloseBrowser" time="0.0" classname="com.Reporting.HotelLoginTest">
+          <skipped />
+    </testcase>
+            <testcase name="SkipTest" time="0.0" classname="com.Reporting.HotelLoginTest">
+          <skipped />
+    </testcase>
+            <testcase name="FailTest" time="0.0" classname="com.Reporting.HotelLoginTest">
+          <skipped />
+    </testcase>
+            <testcase name="VerifyLogin" time="0.0" classname="com.Reporting.HotelLoginTest">
+          <skipped />
+    </testcase>
+            <testcase name="VerifyTitle" time="0.0" classname="com.Reporting.HotelLoginTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>
